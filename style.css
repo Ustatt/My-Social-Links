@@ -76,7 +76,7 @@ h2 {
 .links button {
     all: unset;
     background-color: hsl(0, 0%, 20%);
-    width: 300px;
+    width: 250px;
     height: 40px;
     color: white;
     margin: 10px;

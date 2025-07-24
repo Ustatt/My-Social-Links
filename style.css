@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+    border-radius: 3%;
+    align-items: center;
+    padding: 25px;
+}
+
+.box img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile p,
+h2 {
+    color: white;
+}
+
+.profile .skills {
+    display: flex;
+    align-self: center;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.profile h2 {
+    padding-bottom: 7px;
+    font-weight: 600;
+}
+
+.profile #place {
+    color: hsl(75, 94%, 57%);
+    padding-bottom: 20px;
+    font-weight: 600;
+}
+
+.links {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.links button {
+    all: unset;
+    background-color: hsl(0, 0%, 20%);
+    width: 300px;
+    height: 40px;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.links button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+
+.links a {
+    text-decoration: none;
+}
